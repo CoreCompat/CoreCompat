@@ -15,6 +15,9 @@
 
     "define": [ "RESOURCES_ASSEMBLY_PREFIX" ],
 
+    "publicSign": true,
+    "keyFile": "../../CoreCompat.snk",
+
     "compile": {
       "include": [
         "../../external/mono/mcs/build/common/Locale.cs",
