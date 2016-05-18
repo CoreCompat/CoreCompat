@@ -30,5 +30,10 @@ namespace System
         {
             return value.ToUpperInvariant();
         }
+
+        public static string ToLower(this string value, CultureInfo cultureInfo)
+        {
+            return value.ToLowerInvariant();
+        }
     }
 }
