@@ -1,4 +1,6 @@
 before_build:
+  - wget https://go.microsoft.com/fwlink/?LinkId=798481
+  - DotNetCore.1.0.0.RC2-VS2015Tools.Preview1 /install /quiet
   - git submodule init
   - git submodule update --depth 1
 
