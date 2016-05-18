@@ -1,3 +1,4 @@
 [submodule "mono"]
   path = external/mono
   url = https://github.com/qmfrederik/mono
+  branch = coreclr/system.drawing
