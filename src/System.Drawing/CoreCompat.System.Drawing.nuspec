@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="3.4">
+    <id>CoreCompat.System.Drawing</id>
+    <version>1.0.0-beta001</version>
+    <authors>Frederik Carlier, Mono Project</authors>
+    <title>System.Drawing for .NET Core</title>
+    <description>This package implements the System.Drawing namespace on for projects using .NET Core</description>
+    <projectUrl>https://github.com/qmfrederik/CoreCompat</projectUrl>
+    <dependencies>
+      <dependency id="System.ComponentModel.TypeConverter" version="4.0.1-rc2-24027" />
+      <dependency id="System.Drawing.Primitives" version="4.0.0-rc2-24027" />
+      <dependency id="System.Runtime.Serialization.Primitives" version="4.1.1-rc2-24027" />
+      <dependency id="System.Collections.NonGeneric" version="4.0.1-rc2-24027" />
+      <dependency id="System.Collections.Specialized" version="4.0.1-rc2-240270" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.5\System.Drawing.dll" target="lib\netstandard1.3" />
+  </files>
+</package>

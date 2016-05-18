@@ -4,3 +4,4 @@ obj
 packages
 *.lock.json
 *.user
+*.nupkg
