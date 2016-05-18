@@ -1,9 +1,9 @@
 before_build:
-  - choco install wget
-  - wget https://go.microsoft.com/fwlink/?LinkId=798481
-  - DotNetCore.1.0.0.RC2-VS2015Tools.Preview1 /install /quiet
-  - git submodule init
-  - git submodule update --depth 1
+  - cmd: choco install wget
+  - cmd: wget "http://download.microsoft.com/download/C/3/F/C3FB57E8-03EB-4D82-946D-C0FD9864450C/dotnet-win-x64.1.0.0-rc2-3002702.zip"
+  - cmd: DotNetCore.1.0.0.RC2-VS2015Tools.Preview1 /install /quiet
+  - cmd: git submodule init
+  - cmd: git submodule update --depth 1
 
 build_script:
   - msbuild src\System.Drawing\System.Drawing.xproj /p:Configuration=Release /p:Platform="Any CPU" /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
