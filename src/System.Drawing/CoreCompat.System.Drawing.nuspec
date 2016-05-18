@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="3.4">
     <id>CoreCompat.System.Drawing</id>
-    <version>1.0.0-beta001</version>
+    <version>1.0.0-beta003</version>
     <authors>Frederik Carlier, Mono Project</authors>
     <title>System.Drawing for .NET Core</title>
     <description>This package implements the System.Drawing namespace on for projects using .NET Core</description>
@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\netstandard1.5\System.Drawing.dll" target="lib\netstandard1.3" />
+    <file src="bin\Release\netstandard1.5\System.Drawing.dll" target="lib\netstandard1.5" />
   </files>
 </package>
