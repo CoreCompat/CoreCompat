@@ -61,8 +61,51 @@
         "System.Collections.Specialized": "4.0.1-rc3-24117-00"
       },
       "buildOptions": {
+        "allowUnsafe": true,
+
         "compile": {
+          "include": [
+            "../../external/mono/mcs/build/common/Locale.cs",
+            "../../external/mono/mcs/build/common/MonoTODOAttribute.cs",
+            "../../external/mono/mcs/build/common/SR.cs",
+            "../../external/mono/mcs/class/System.Drawing/**/*.cs",
+
+            "../../external/mono/mcs/class/System/ReferenceSources/SR.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ExpandableObjectConverter.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ImmutableObjectAttribute.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/InvalidEnumArgumentException.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/EditorAttribute.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/LocalizableAttribute.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/design/serialization/InstanceDescriptor.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibilityAttribute.cs",
+            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibility.cs",
+            "../../external/mono/mcs/class/referencesource/mscorlib/system/ICloneable.cs",
+            "../../external/mono/mcs/class/corlib/System.Runtime.InteropServices/HandleRef.cs",
+            "../../external/mono/mcs/class/System/System.IO/InternalBufferOverflowException.cs"
+          ],
           "exclude": [
+            "../../external/mono/mcs/class/System.Drawing/Mainsoft.Drawing.Configuration.jvm/",
+            "../../external/mono/mcs/class/System.Drawing/Assembly/",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing/ComIStreamMarshaler.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing/ImageAnimator.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing/SRDescriptionAttribute.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermission.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermissionAttribute.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintDocument.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PreviewPrintController.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintController.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/StandardPrintController.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxService.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventArgs.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventHandler.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItem.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCollection.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCreatorCallback.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxItemProvider.cs",
+            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxUser.cs",
+            "../../external/mono/mcs/class/System.Drawing/Test/**/*.cs",
+            "../../external/mono/mcs/class/System.Drawing/Samples/**/*.cs",
+
             "../../external/mono/mcs/class/System.Drawing/System.Drawing/Point.cs",
             "../../external/mono/mcs/class/System.Drawing/System.Drawing/PointF.cs",
             "../../external/mono/mcs/class/System.Drawing/System.Drawing/PointConverter.cs",
