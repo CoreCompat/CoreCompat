@@ -21,6 +21,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+#if CORECLR
 namespace System
 {
     public class AccessViolationException : Exception
@@ -31,3 +32,4 @@ namespace System
         }
     }
 }
+#endif

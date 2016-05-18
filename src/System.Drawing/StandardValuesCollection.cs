@@ -4,6 +4,7 @@
 // </copyright>                                                                
 //------------------------------------------------------------------------------
 
+#if CORECLR
 using System.Collections;
 
 namespace System.ComponentModel
@@ -161,3 +162,4 @@ namespace System.ComponentModel
         }
     }
 }
+#endif

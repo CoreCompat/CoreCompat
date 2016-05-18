@@ -23,13 +23,15 @@
 using System.IO;
 using System.Reflection;
 
+#if CORECLR
 namespace System.Drawing
 {
     public static class AssemblyExtensions
     {
         public static Stream GetManifestResourceStream(this Assembly assembly, Type type, string name)
         {
-            return assembly.GetManifestResourceStream($"{type.FullName}.{name}");
+            return assembly.GetManifestResourceStream($"{type}.{name}");
         }
     }
 }
+#endif
