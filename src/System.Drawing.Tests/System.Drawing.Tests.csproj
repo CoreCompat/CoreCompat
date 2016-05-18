@@ -51,10 +51,10 @@
   <ItemGroup>
     <Compile Include="HostIgnoreList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="../../../mono/mcs/class/System.Drawing/Test/System.Drawing/*.cs" Exclude="../../../mono/mcs/class/System.Drawing/Test/System.Drawing/*Cas.cs" />
-    <Compile Include="../../../mono/mcs/class/System.Drawing/Test/System.Drawing.Imaging/*.cs"/>
-    <Compile Include="../../../mono/mcs/class/System.Drawing/Test/System.Drawing.Drawing2D/*.cs"/>
-    <Compile Include="../../../mono/mcs/class/System.Drawing/Test/System.Drawing.Text/*.cs"/>
+    <Compile Include="../../external/mono/mcs/class/System.Drawing/Test/System.Drawing/*.cs" Exclude="../../external/mono/mcs/class/System.Drawing/Test/System.Drawing/*Cas.cs" />
+    <Compile Include="../../external/mono/mcs/class/System.Drawing/Test/System.Drawing.Imaging/*.cs"/>
+    <Compile Include="../../external/mono/mcs/class/System.Drawing/Test/System.Drawing.Drawing2D/*.cs"/>
+    <Compile Include="../../external/mono/mcs/class/System.Drawing/Test/System.Drawing.Text/*.cs"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
