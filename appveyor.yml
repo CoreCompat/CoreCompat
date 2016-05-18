@@ -1,7 +1,7 @@
 before_build:
   - cmd: choco install wget
-  - cmd: wget "http://download.microsoft.com/download/C/3/F/C3FB57E8-03EB-4D82-946D-C0FD9864450C/dotnet-win-x64.1.0.0-rc2-3002702.zip"
-  - cmd: DotNetCore.1.0.0.RC2-VS2015Tools.Preview1 /install /quiet
+  - cmd: wget "https://download.microsoft.com/download/4/6/1/46116DFF-29F9-4FF8-94BF-F9BE05BE263B/DotNetCore.1.0.0.RC2-VS2015Tools.Preview1.exe"
+  - cmd: DotNetCore.1.0.0.RC2-VS2015Tools.Preview1.exe /install /quiet
   - cmd: git submodule init
   - cmd: git submodule update --depth 1
 
