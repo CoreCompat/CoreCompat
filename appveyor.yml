@@ -1,3 +1,7 @@
+before_build:
+  - git submodule init
+  - git submodule update --depth 1
+
 build_script:
   - msbuild src\System.Drawing\System.Drawing.xproj /p:Configuration=Release /p:Platform="Any CPU" /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
 
