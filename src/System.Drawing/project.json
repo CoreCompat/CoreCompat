@@ -6,10 +6,10 @@
 
     "embed": {
       "include": [
-        "../../external/mono/mcs/class/System.Drawing/Assembly/*.*"
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/Assembly/*.*"
       ],
       "exclude": [
-        "../../external/mono/mcs/class/System.Drawing/Assembly/*.cs"
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/Assembly/*.cs"
       ]
     },
 
@@ -20,116 +20,115 @@
 
     "compile": {
       "include": [
-        "../../external/mono/mcs/build/common/Locale.cs",
-        "../../external/mono/mcs/build/common/MonoTODOAttribute.cs",
-        "../../external/mono/mcs/build/common/SR.cs",
-        "../../external/mono/mcs/class/System.Drawing/**/*.cs"
+        "../../../../../../../../../src/mono/mcs/build/common/Locale.cs",
+        "../../../../../../../../../src/mono/mcs/build/common/MonoTODOAttribute.cs",
+        "../../../../../../../../../src/mono/mcs/build/common/SR.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/**/*.cs"
       ],
       "exclude": [
-        "../../external/mono/mcs/class/System.Drawing/Mainsoft.Drawing.Configuration.jvm/",
-        "../../external/mono/mcs/class/System.Drawing/Assembly/",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing/ComIStreamMarshaler.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing/ImageAnimator.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing/SRDescriptionAttribute.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermission.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermissionAttribute.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintDocument.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PreviewPrintController.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintController.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/StandardPrintController.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxService.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventArgs.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventHandler.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItem.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCollection.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCreatorCallback.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxItemProvider.cs",
-        "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxUser.cs",
-        "../../external/mono/mcs/class/System.Drawing/Test/**/*.cs",
-        "../../external/mono/mcs/class/System.Drawing/Samples/**/*.cs"
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/Mainsoft.Drawing.Configuration.jvm/",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/Assembly/",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/ComIStreamMarshaler.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/ImageAnimator.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/SRDescriptionAttribute.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermission.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermissionAttribute.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintDocument.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PreviewPrintController.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintController.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/StandardPrintController.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxService.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventArgs.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventHandler.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItem.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCollection.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCreatorCallback.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxItemProvider.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxUser.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/Test/**/*.cs",
+        "../../../../../../../../../src/mono/mcs/class/System.Drawing/Samples/**/*.cs"
       ]
     }
   },
 
   "frameworks": {
+    "net45": {
+      "imports": "portable-net45+win8",
+      "frameworkAssemblies": {
+
+      }
+    },
     "netstandard1.5": {
       "imports": "dnxcore50",
       "dependencies": {
-        "NETStandard.Library": "1.5.0-rc3-24117-00",
-        "System.ComponentModel.TypeConverter": "4.0.1-rc3-24117",
-        "System.Drawing.Primitives": "4.0.0-rc3-24117",
-        "System.Runtime.Serialization.Primitives": "4.1.1-rc3-24117-00",
-        "System.Collections.NonGeneric": "4.0.1-rc3-24117",
-        "System.Runtime.Serialization.Formatters": "4.0.0-rc3-24117-00",
-        "System.Collections.Specialized": "4.0.1-rc3-24117-00"
+        "NETStandard.Library": "1.5.0-rc2-24027",
+        "System.ComponentModel.TypeConverter": "4.0.1-rc2-24027",
+        "System.Drawing.Primitives": "4.0.0-rc2-24027",
+        "System.Runtime.Serialization.Primitives": "4.1.1-rc2-24027",
+        "System.Collections.NonGeneric": "4.0.1-rc2-24027",
+        "System.Collections.Specialized": "4.0.1-rc2-24027"
       },
       "buildOptions": {
         "allowUnsafe": true,
 
         "compile": {
           "include": [
-            "../../external/mono/mcs/build/common/Locale.cs",
-            "../../external/mono/mcs/build/common/MonoTODOAttribute.cs",
-            "../../external/mono/mcs/build/common/SR.cs",
-            "../../external/mono/mcs/class/System.Drawing/**/*.cs",
+            "../../../../../../../../../src/mono/mcs/build/common/Locale.cs",
+            "../../../../../../../../../src/mono/mcs/build/common/MonoTODOAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/build/common/SR.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/**/*.cs",
 
-            "../../external/mono/mcs/class/System/ReferenceSources/SR.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ExpandableObjectConverter.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ImmutableObjectAttribute.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/InvalidEnumArgumentException.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/EditorAttribute.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/LocalizableAttribute.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/design/serialization/InstanceDescriptor.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibilityAttribute.cs",
-            "../../external/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibility.cs",
-            "../../external/mono/mcs/class/referencesource/mscorlib/system/ICloneable.cs",
-            "../../external/mono/mcs/class/corlib/System.Runtime.InteropServices/HandleRef.cs",
-            "../../external/mono/mcs/class/System/System.IO/InternalBufferOverflowException.cs"
+            "../../../../../../../../../src/mono/mcs/class/System/ReferenceSources/SR.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ExpandableObjectConverter.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ImmutableObjectAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/InvalidEnumArgumentException.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/EditorAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/LocalizableAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/design/serialization/InstanceDescriptor.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibilityAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibility.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/mscorlib/system/ICloneable.cs",
+            "../../../../../../../../../src/mono/mcs/class/referencesource/mscorlib/system/runtime/interopservices/handleref.cs",
+            "../../../../../../../../../src/mono/mcs/class/System/System.IO/InternalBufferOverflowException.cs"
           ],
           "exclude": [
-            "../../external/mono/mcs/class/System.Drawing/Mainsoft.Drawing.Configuration.jvm/",
-            "../../external/mono/mcs/class/System.Drawing/Assembly/",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/ComIStreamMarshaler.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/ImageAnimator.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/SRDescriptionAttribute.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermission.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermissionAttribute.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintDocument.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PreviewPrintController.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintController.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Printing/StandardPrintController.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxService.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventArgs.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventHandler.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItem.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCollection.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCreatorCallback.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxItemProvider.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxUser.cs",
-            "../../external/mono/mcs/class/System.Drawing/Test/**/*.cs",
-            "../../external/mono/mcs/class/System.Drawing/Samples/**/*.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/Mainsoft.Drawing.Configuration.jvm/",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/Assembly/",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/ComIStreamMarshaler.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/ImageAnimator.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/SRDescriptionAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermission.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintingPermissionAttribute.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintDocument.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PreviewPrintController.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/PrintController.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Printing/StandardPrintController.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxService.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventArgs.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxComponentsCreatingEventHandler.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItem.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCollection.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/ToolboxItemCreatorCallback.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxItemProvider.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing.Design/IToolboxUser.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/Test/**/*.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/Samples/**/*.cs",
 
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/Point.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/PointF.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/PointConverter.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/PointFConverter.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/Size.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/SizeF.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/SizeConverter.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/SizeFConverter.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/Rectangle.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/RectangleF.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/RectangleConverter.cs",
-            "../../external/mono/mcs/class/System.Drawing/System.Drawing/RectangleFConverter.cs"
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/Point.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/PointF.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/PointConverter.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/PointFConverter.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/Size.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/SizeF.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/SizeConverter.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/SizeFConverter.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/Rectangle.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/RectangleF.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/RectangleConverter.cs",
+            "../../../../../../../../../src/mono/mcs/class/System.Drawing/System.Drawing/RectangleFConverter.cs"
           ]
         },
-        "define": [ "CORECLR" ]
-      }
-    },
-    "net45": {
-      "imports": "portable-net45+win8",
-      "frameworkAssemblies": {
-
+        "define": [ "CORECLR", "NETCORE" ]
       }
     }
   }
