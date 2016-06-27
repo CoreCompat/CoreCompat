@@ -60,13 +60,19 @@
     },
     "netstandard1.3": {
       "dependencies": {
-        "NETStandard.Library": "1.5.0-rc2-24027",
-        "System.ComponentModel.TypeConverter": "4.0.1-rc2-24027",
-        "System.Drawing.Primitives": "4.0.0-rc2-24027",
-        "System.Runtime.Serialization.Primitives": "4.1.1-rc2-24027",
-        "System.Reflection.TypeExtensions": "4.1.0-rc2-24027",
-        "System.Collections.NonGeneric": "4.0.1-rc2-24027",
-        "System.Collections.Specialized": "4.0.1-rc2-24027"
+        "System.ComponentModel.TypeConverter": "4.1.0",
+        "System.Drawing.Primitives": "4.0.0",
+        "System.Reflection.TypeExtensions": "4.1.0",
+        "System.Collections.NonGeneric": "4.0.1",
+        "System.Collections.Specialized": "4.0.1",
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.Text.RegularExpressions": "4.1.0",
+        "System.Runtime.Extensions": "4.1.0",
+        "System.Text.Encoding.Extensions": "4.0.11",
+        "System.Threading": "4.0.11",
+        "Microsoft.Win32.Primitives": "4.0.1",
+        "System.IO.FileSystem": "4.0.1",
+        "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
       },
       "buildOptions": {
         "allowUnsafe": true,
@@ -80,13 +86,9 @@
 
             "../../../../../../../../../src/mono/mcs/class/System/ReferenceSources/SR.cs",
             "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ExpandableObjectConverter.cs",
-            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/ImmutableObjectAttribute.cs",
             "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/InvalidEnumArgumentException.cs",
             "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/EditorAttribute.cs",
-            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/LocalizableAttribute.cs",
             "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/design/serialization/InstanceDescriptor.cs",
-            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibilityAttribute.cs",
-            "../../../../../../../../../src/mono/mcs/class/referencesource/System/compmod/system/componentmodel/DesignerSerializationVisibility.cs",
             "../../../../../../../../../src/mono/mcs/class/referencesource/mscorlib/system/ICloneable.cs",
             "../../../../../../../../../src/mono/mcs/class/referencesource/mscorlib/system/runtime/interopservices/handleref.cs",
             "../../../../../../../../../src/mono/mcs/class/System/System.IO/InternalBufferOverflowException.cs"
