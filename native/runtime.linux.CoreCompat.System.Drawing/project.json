@@ -18,7 +18,7 @@
     },
     "files": {
       "mappings": {
-        "runtimes/linux-x64/native/libimobiledevice.so": "out/usr/local/lib/libgdiplus.so"
+        "runtimes/linux-x64/native/libgdiplus.so": "out/usr/local/lib/libgdiplus.so"
       }
     }
   },
