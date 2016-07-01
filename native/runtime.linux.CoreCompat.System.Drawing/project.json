@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-*",
+
+  "authors": [
+    "Quamotion"
+  ],
+
+  "title": "Linux Native libraries for System.Drawing",
+  "description": "Allows you to use System.Drawing on Linux",
+  "packOptions": {
+    "licenseUrl": "https://raw.githubusercontent.com/CoreCompat/CoreCompat",
+    "owners": [
+      "Quamotion"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://raw.githubusercontent.com/CoreCompat/CoreCompat"
+    },
+    "files": {
+      "mappings": {
+        "runtimes/linux-x64/native/libimobiledevice.so": "out/usr/local/lib/libgdiplus.so"
+      }
+    }
+  },
+
+  "buildOptions": {
+     "allowUnsafe": true
+  },
+
+  "frameworks": {
+    "netstandard1.5": {
+      "dependencies": {
+      }
+    }
+  }
+}
