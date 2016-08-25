@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-*",
+
+  "authors": [
+    "Quamotion"
+  ],
+
+  "title": "OS X Native libraries for System.Drawing",
+  "description": "Allows you to use System.Drawing on OS X",
+  "packOptions": {
+    "licenseUrl": "https://raw.githubusercontent.com/CoreCompat/CoreCompat",
+    "owners": [
+      "Quamotion"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://raw.githubusercontent.com/CoreCompat/CoreCompat"
+    },
+    "files": {
+      "mappings": {
+        "runtimes/osx-x64/native/libgdiplus.dylib": "out/usr/local/lib/libgdiplus.0.dylib"
+      }
+    }
+  },
+
+  "buildOptions": {
+     "allowUnsafe": true
+  },
+
+  "frameworks": {
+    "netstandard1.5": {
+      "dependencies": {
+      }
+    }
+  }
+}
