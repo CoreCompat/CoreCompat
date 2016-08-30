@@ -18,6 +18,16 @@
     },
     "files": {
       "mappings": {
+        "runtimes/osx-x64/native/libcairo.2.dylib": "out/usr/local/lib/libcairo.2.dylib",
+        "runtimes/osx-x64/native/libfontconfig.1.dylib": "out/usr/local/lib/libfontconfig.1.dylib",
+        "runtimes/osx-x64/native/libfreetype.6.dylib": "out/usr/local/lib/libfreetype6..dylib",
+        "runtimes/osx-x64/native/libgif.4.dylib": "out/usr/local/lib/libgif.4.dylib",
+        "runtimes/osx-x64/native/libglib-2.0.0.dylib": "out/usr/local/lib/libglib-2.0.0.dylib",
+        "runtimes/osx-x64/native/libintl.8.dylib": "out/usr/local/lib/libint.8.dylib",
+        "runtimes/osx-x64/native/libjpeg.8.dylib": "out/usr/local/lib/libjpeg.8.dylib",
+        "runtimes/osx-x64/native/libpixman-1.0.dylib": "out/usr/local/lib/libpixman-1.0.dylib",
+        "runtimes/osx-x64/native/libtiff.5.dylib": "out/usr/local/lib/libtiff.5.dylib",
+        "runtimes/osx-x64/native/libpcre.1.dylib": "out/usr/local/lib/libpcre.1.dylib",
         "runtimes/osx-x64/native/libgdiplus.dylib": "out/usr/local/lib/libgdiplus.0.dylib"
       }
     }
