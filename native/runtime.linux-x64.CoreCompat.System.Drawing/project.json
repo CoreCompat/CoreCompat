@@ -18,7 +18,7 @@
     },
     "files": {
       "mappings": {
-        "runtimes/linux-x64/native/libgdiplus.so": "out/usr/local/lib/libgdiplus.so"
+        "runtimes/linux-x64/native/libgdiplus.so": "out/usr/local/lib/libgdiplus.so",
         "runtimes/linux-x64/native/libglib-2.0.so.0": "/lib/x86_64-linux-gnu/libglib-2.0.so.0",
         "runtimes/linux-x64/native/libcairo.so.2": "/usr/lib/x86_64-linux-gnu/libcairo.so.2",
         "runtimes/linux-x64/native/libfreetype.so.6": "/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
