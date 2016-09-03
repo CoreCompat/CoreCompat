@@ -19,6 +19,14 @@
     "files": {
       "mappings": {
         "runtimes/linux-x64/native/libgdiplus.so": "out/usr/local/lib/libgdiplus.so"
+        "runtimes/linux-x64/native/libglib-2.0.so.0": "/lib/x86_64-linux-gnu/libglib-2.0.so.0",
+        "runtimes/linux-x64/native/libcairo.so.2": "/usr/lib/x86_64-linux-gnu/libcairo.so.2",
+        "runtimes/linux-x64/native/libfreetype.so.6": "/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+        "runtimes/linux-x64/native/libpng12.so.0": "/lib/x86_64-linux-gnu/libpng12.so.0",
+        "runtimes/linux-x64/native/libjpeg.so.8": "/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "runtimes/linux-x64/native/libtiff.so.5": "/lib/x86_64-linux-gnu/libtiff.so.5",
+        "runtimes/linux-x64/native/libgif.so.7": "/lib/x86_64-linux-gnu/libgif.so.7",
+        "runtimes/linux-x64/native/libfontconfig.so.1": "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1"
       }
     }
   },
