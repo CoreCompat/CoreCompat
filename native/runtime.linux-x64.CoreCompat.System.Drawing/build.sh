@@ -20,6 +20,8 @@ cp /usr/lib/x86_64-linux-gnu/libtiff.so.5 $out/lib
 cp /usr/lib/x86_64-linux-gnu/libgif.so.7 $out/lib
 cp /usr/lib/x86_64-linux-gnu/libpng12.so.0 $out/lib
 cp /usr/lib/x86_64-linux-gnu/libexif.so.12 $out/lib
+cp /usr/lib/x86_64-linux-gnu/libfontconfig.so.1 $out/lib
+cp /usr/lib/x86_64-linux-gnu/libpixman-1.so.0 $out/lib
 
 # For more info, see: https://github.com/NixOS/patchelf
 # http://man7.org/linux/man-pages/man8/ld.so.8.html
