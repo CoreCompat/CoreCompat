@@ -5,6 +5,10 @@
     "Quamotion"
   ],
 
+  "dependencies": {
+    "System.Runtime": "4.1.0",
+  },
+
   "title": "Linux Native libraries for System.Drawing",
   "description": "Allows you to use System.Drawing on Linux",
   "packOptions": {
@@ -28,7 +32,8 @@
         "runtimes/linux-x64/native/libgif.so.7": "out/usr/local/lib/libgif.so.7",
         "runtimes/linux-x64/native/libfontconfig.so.1": "out/usr/local/lib/libfontconfig.so.1",
         "runtimes/linux-x64/native/libexif.so.12": "out/usr/local/lib/libexif.so.12",
-        "runtimes/linux-x64/native/libpixman-1.so.0": "out/usr/local/lib/libpixman-1.so.0"
+        "runtimes/linux-x64/native/libpixman-1.so.0": "out/usr/local/lib/libpixman-1.so.0",
+        "runtimes/linux-x64/native/libjbig.so.0": "out/usr/local/lib/libjbig.so.0"
       }
     }
   },
