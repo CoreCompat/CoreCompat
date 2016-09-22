@@ -1,7 +1,7 @@
 #!/bin/sh
 
 path=$(pwd)
-out=$path/out/usr/local
+out="$path/out/usr/local"
 
 # Remove the output folder, if it already exists
 rm -rf "$out"
