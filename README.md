@@ -8,7 +8,7 @@ System.Drawing for .NET Core is available as the `CoreCompat.System.Drawing` NuG
 ## Running System.Drawing for .NET Core on OS X or Linux
 
 If use System.Drawing for .NET Core on OS X or Linux, make sure you reference the native packages:
-[Linux: `runtime.linux.CoreCompat.System.Drawing`](https://www.nuget.org/packages/runtime.linux.CoreCompat.System.Drawing)
+[Linux: `runtime.linux-x64.CoreCompat.System.Drawing`](https://www.nuget.org/packages/runtime.linux-x64.CoreCompat.System.Drawing)
 [OS X: `runtime.osx.10.10-x64.CoreCompat.System.Drawing`](https://www.nuget.org/packages/runtime.osx.10.10-x64.CoreCompat.System.Drawing)
 
 ## Roadmap
