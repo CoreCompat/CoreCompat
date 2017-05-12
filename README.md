@@ -5,6 +5,9 @@ Mono implementation of System.Drawing and runs on Windows, Linux and Mac.
 
 System.Drawing for .NET Core is available as the `CoreCompat.System.Drawing` NuGet package.
 
+## System.Drawing for .NET Core 2.0
+See [CoreCompat.System.Drawing.v2](https://github.com/CoreCompat/System.Drawing) for a version of System.Drawing which is compatible with .NET Core 2.0 and .NET Standard 2.0
+
 ## Running System.Drawing for .NET Core on OS X or Linux
 
 If use System.Drawing for .NET Core on OS X or Linux, make sure you reference the native packages:
